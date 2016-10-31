@@ -7,7 +7,7 @@ build:
  commands:
   - docker build -t gerrit ./Gerrit
 build:
- image: golang
+ image: gerrit
  commands:
   - go get
   - go build
