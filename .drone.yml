@@ -1,5 +1,6 @@
 build:
- image: gerrit
+ image: ./GBase
+ image: ./Gerrit
  commands:
   - go get
   - go build
