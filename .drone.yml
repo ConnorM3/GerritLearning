@@ -1,14 +1,5 @@
 build:
- context: ./GBase
- dockerfile: Dockerfile
-build:
- context: ./Gerrit
- dockerfile: Dockerfile
- ports:
-  - 8080:8080
- tty: true
-build:
- image: golang
+ image: gerrit
  commands:
   - go get
   - go build
