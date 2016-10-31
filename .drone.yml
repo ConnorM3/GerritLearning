@@ -1,6 +1,8 @@
+script:
+ - docker build -t gbase ./GBase
+ - docker build -t gerrit ./Gerrit
 build:
- image: ./GBase
- image: ./Gerrit
+ image: gerrit
  commands:
   - go get
   - go build
