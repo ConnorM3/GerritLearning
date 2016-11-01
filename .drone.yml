@@ -1,6 +1,6 @@
 workspace:
  base: /opt
- path: src/GerritLearning/GBase
+ path: src/github.com/ConnorM3/GerritLearning/GBase
 build:
  image: golang
  commands:
