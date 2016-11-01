@@ -1,6 +1,10 @@
-workspace:
- base: /opt
- path: src/github.com/ConnorM3/GerritLearning/GBase
+compose:
+ gbase:
+  image: gbase
+  path: ./GBase
+ gerrit:
+  image: gerrit
+  path: ./Gerrit
 build:
  image: golang
  commands:
