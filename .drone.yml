@@ -1,3 +1,2 @@
-image: gerrit
-script:
- - go get
+build:
+ image: gerrit
