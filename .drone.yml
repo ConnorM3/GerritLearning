@@ -1,7 +1,5 @@
-
-build:
- image: /var/lib/docker/image/aufs/diff/gerrit
- commands:
-  - go get
-  - go build
-  - go test
+image: golang
+script:
+ - go get
+ - go build
+ - go test
