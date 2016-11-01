@@ -1,1 +1,3 @@
 image: gerrit
+script:
+ - go get
