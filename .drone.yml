@@ -1,6 +1,6 @@
 
 build:
- image: /var/lib/docker/image/aufs/diff/repositories.json
+ image: /var/lib/docker/image/aufs/diff/repositories.json/gerrit
  commands:
   - go get
   - go build
