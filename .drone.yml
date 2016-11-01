@@ -1,5 +1,5 @@
 image: golang
 script:
- - go get
+ - go get -d
  - go build
  - go test
