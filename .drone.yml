@@ -1,7 +1,7 @@
 workspace:
  base: /opt
 build:
- image: golang
+ image: golang:1.6
  commands:
   - go get
   - go build
