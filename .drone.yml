@@ -1,13 +1,7 @@
+workspace:
+ base: /opt
 build:
- image: Docker1.12.2
- commands:
-  - docker build -t gbase ./GBase
-build:
- image: Docker1.12.2
- commands:
-  - docker build -t gerrit ./Gerrit
-build:
- image: gerrit
+ image: golang
  commands:
   - go get
   - go build
