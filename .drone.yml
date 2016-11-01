@@ -1,7 +1,8 @@
 workspace:
  base: /opt
+ path: src/GerritLearning/GBase
 build:
- image: golang:1.6
+ image: golang
  commands:
   - go get
   - go build
