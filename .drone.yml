@@ -1,5 +1,1 @@
-image: golang
-script:
- - go get -d
- - go build
- - go test
+image: gerrit
