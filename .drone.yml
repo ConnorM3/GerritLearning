@@ -1,12 +1,6 @@
-compose:
- gbase:
-  image: gbase
-  path: ./GBase
- gerrit:
-  image: gerrit
-  path: ./Gerrit
+
 build:
- image: golang
+ image: /var/lib/docker/image/aufs/diff/repositories.json
  commands:
   - go get
   - go build
